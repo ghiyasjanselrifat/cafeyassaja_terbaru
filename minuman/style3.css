@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4e342e;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffe0b2 !important;
+    letter-spacing: 0.05em;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffcc80 !important;
+}
+
+/* Bingkai foto */
+.product-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: 8px;              /* jarak isi ke bingkai */
+    border-radius: 12px;      /* sudut melengkung */
+    background: white;
+}
+
+/* Card */
+.card {
+    transition: 0.3s;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;              /* tulisan putih */
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer h6 {
+    color: white;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+/* Icon */
+footer a i {
+    margin-right: 6px;
+    font-size: 22px;
+}
+
+/* Warna icon saja */
+.instagram i {
+    color: #E1306C;   /* Pink */
+}
+
+.tiktok i {
+    color: #25F4EE;   /* Cyan */
+}
+
+.github i {
+    color: white;     /* Putih */
+}
+
+footer a:hover {
+    opacity: 0.8;
+}

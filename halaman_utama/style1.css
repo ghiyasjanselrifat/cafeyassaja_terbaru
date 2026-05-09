@@ -1,0 +1,172 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3ede5;
+    color: #3e2a1b;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4e342e;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffe0b2 !important;
+    letter-spacing: 0.05em;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffcc80 !important;
+}
+
+/* Hero */
+.hero {
+    min-height: 80vh;
+    background: linear-gradient(rgba(62, 39, 35, 0.72), rgba(62, 39, 35, 0.72)),
+        url('https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #ffe0b2;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.hero p.lead {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+}
+
+.btn-warning {
+    background-color: #d95f31;
+    border-color: #d95f31;
+}
+
+.btn-warning:hover,
+.btn-warning:focus {
+    background-color: #c4552d;
+    border-color: #c4552d;
+}
+
+.btn-outline-light {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+    color: #3e2a1b;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.feature-card,
+.info-card {
+    background-color: #fff9f2;
+    border: 1px solid rgba(62, 39, 35, 0.08);
+    border-radius: 18px;
+}
+
+.feature-card h5,
+.info-card h5 {
+    margin-bottom: 0.75rem;
+}
+
+.feature-card p,
+.info-card p {
+    color: #6c5845;
+}
+
+.text-brown {
+    color: #8b5c44;
+}
+
+.bg-beige {
+    background-color: #f4ece4;
+}
+
+footer {
+    background-color: #3e2723;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+footer h6 {
+    color: #ffffff;
+    margin-top: 18px;
+    font-weight: 400;
+}
+
+footer a i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.instagram i {
+    color: #E1306C;
+}
+
+.tiktok i {
+    color: #25F4EE;
+}
+
+.github i {
+    color: #ffffff;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 70vh;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
